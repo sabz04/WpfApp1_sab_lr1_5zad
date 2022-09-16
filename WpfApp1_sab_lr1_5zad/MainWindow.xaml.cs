@@ -24,5 +24,12 @@ namespace WpfApp1_sab_lr1_5zad
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 win = new Window1();
+            win.Show();
+            this.Hide();
+        }
     }
 }

@@ -13,7 +13,7 @@
             
             >
             <Button
-               FontSize="46"
+               FontSize="46" Click="Button_Click"
                 >ТЫК</Button>
         </StackPanel>
     </Grid>
